@@ -78,7 +78,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.html" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -91,34 +91,34 @@ include '../conexion.php';
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color: #59C3CE;">Pawffé</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#" style="color: #59C3CE;">Sobre nosotros</a></li>
-                                <li><a class="dropdown-item" href="socios.html" style="color: #59C3CE;">Socios</a></li>
-                                <li><a class="dropdown-item" href="galeria.html" style="color: #59C3CE;">Galería</a></li>
-                                <li><a class="dropdown-item" href="eventos.html" style="color: #59C3CE;">Eventos</a></li>
+                                <li><a class="dropdown-item" href="socios.php" style="color: #59C3CE;">Socios</a></li>
+                                <li><a class="dropdown-item" href="galeria.php" style="color: #59C3CE;">Galería</a></li>
+                                <li><a class="dropdown-item" href="eventos.php" style="color: #59C3CE;">Eventos</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color: #59C3CE;">Perros y gatos</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="perros.html" style="color: #59C3CE;">Perros</a></li>
-                                <li><a class="dropdown-item" href="gatos.html" style="color: #59C3CE;">Gatos</a></li>
-                                <li><a class="dropdown-item" href="adopcion.html" style="color: #59C3CE;">Adopción</a></li>
+                                <li><a class="dropdown-item" href="perros.php" style="color: #59C3CE;">Perros</a></li>
+                                <li><a class="dropdown-item" href="gatos.php" style="color: #59C3CE;">Gatos</a></li>
+                                <li><a class="dropdown-item" href="adopcion.php" style="color: #59C3CE;">Adopción</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <!-- En esta opcion no se ha añadido la nuefva propiedad -->
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"  href="#" style="color: #59C3CE;">Servicios</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="menu.html" style="color: #59C3CE;">Menú</a></li>
-                                <li><a class="dropdown-item" href="comida.html" style="color: #59C3CE;">Comida</a></li>
-                                <li><a class="dropdown-item" href="accesorios.html" style="color: #59C3CE;">Accesorios</a></li>
-                                <li><a class="dropdown-item" href="juguetes.html" style="color: #59C3CE;">Juguetes</a></li>
+                                <li><a class="dropdown-item" href="menu.php" style="color: #59C3CE;">Menú</a></li>
+                                <li><a class="dropdown-item" href="comida.php" style="color: #59C3CE;">Comida</a></li>
+                                <li><a class="dropdown-item" href="accesorios.php" style="color: #59C3CE;">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="juguetes.php" style="color: #59C3CE;">Juguetes</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html" style="color: #59C3CE;">Contacto</a>
+                            <a class="nav-link" href="contacto.php" style="color: #59C3CE;">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="reservas.html" style="color: #59C3CE;">Reserva</a>
+                            <a class="nav-link" href="reservas.php" style="color: #59C3CE;">Reserva</a>
                         </li>
                     </ul>
                 </div>
