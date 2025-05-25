@@ -109,8 +109,8 @@ include '../conexion.php';
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"  href="#" style="color: #59C3CE;">Servicios</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="menu.php" style="color: #59C3CE;">Menú</a></li>
-                                <li><a class="dropdown-item" href="comida.php" style="color: #59C3CE;">Comida</a></li>
-                                <li><a class="dropdown-item" href="#" style="color: #59C3CE;">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="#" style="color: #59C3CE;">Comida</a></li>
+                                <li><a class="dropdown-item" href="accesorios.php" style="color: #59C3CE;">Accesorios</a></li>
                                 <li><a class="dropdown-item" href="juguetes.php" style="color: #59C3CE;">Juguetes</a></li>
                             </ul>
                         </li>
