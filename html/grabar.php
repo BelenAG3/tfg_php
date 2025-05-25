@@ -5,7 +5,6 @@
 //.........................................................................
 
 	$con = mysqli_connect($Servidor,$Usuario,$Password,$bd);
-	echo $bd;
 	if(!$con)
 	{
 		echo 'No se pudo conectar con la base de datos...';
@@ -17,22 +16,22 @@
 
 	// Capturar las variables a grabar
 		
-		$Nombre = $_POST['name'];
+		$nombre = $_POST['name'];
 //		$apellidos = $_POST['apellidos'];
-		$Telefono = $_POST['phone'];
-		$Fecha = $_POST['rechaReserv'];
-		$N_adultos = $_POST['adulto'];
-		$N_ninos = $_POST['kids'];
+		$telefono = $_POST['phone'];
+		$fecha = $_POST['rechaReserv'];
+		$n_adultos = $_POST['adulto'];
+		$n_ninos = $_POST['kids'];
 		
 		// Verbo para insertar
-		$sql = "INSERT INTO reserva (Nombre, Telefono, Fecha, N_adultos, N_ninos) VALUES ('" .$Nombre. "', '" .$Telefono. "', '" .$Fecha. "', " .$N_adultos. ", " .$N_ninos. ")";
+		$sql = "INSERT INTO reserva (nombre, telefono, fecha, n_adultos, n_ninos) VALUES ('" .$nombre. "', '" .$telefono. "', '" .$fecha. "', " .$n_adultos. ", " .$n_ninos. ")";
 
 		$grabado = mysqli_query($con, $sql);
 		if(!$grabado)
 		{
 			echo mysqli_error($con);
 		}
-		echo "Reserva guardada correctamente" .$grabado;
+		echo "registro grabado" .$grabado;
 		if($grabado)
 		{
 			mysqli_close($con); //cierra la conexion
@@ -49,13 +48,6 @@
 	
 ?>
 <html>
-	<head>
-    <title>Página con fondo</title>
-	</head>
-	<body style="background-color: #59C3CE;"> <!-- Cambia este color a gusto -->
-
-		<input type="button" value="Volver al inicio" onclick="window.location.href='../index.php';">
-
-	</body>
+	<input type="button" value="Página anterior" onClick="history.go(-1);">
 	
 </html>

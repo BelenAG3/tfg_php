@@ -70,15 +70,11 @@ include 'conexion.php';
     
     </head>
     <body >
-
-        
-
-
         <div class="container-fluid border" ></div>
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="#" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="#" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -120,9 +116,6 @@ include 'conexion.php';
                         <li class="nav-item">
                             <a class="nav-link" href="html/reservas.php" style="color: #59C3CE;">Reserva</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="html/lista.php" style="color: #59C3CE;">Ver Reservas</a>
-                        </li>
                     </ul>
                 </div>
             </nav>
@@ -157,7 +150,7 @@ include 'conexion.php';
     
         </div>
 
-
+        <br><br>
 
         <div class= "container-fluid">
             <div class="row">
@@ -176,27 +169,27 @@ include 'conexion.php';
                 </div>
             </div>
         </div>
-
-        <div class="container-sm" style="background-color: #59C3CE; padding-top: 2%;">
+        <br></br>
+        <div class="container-fluid" style="background-color: #59C3CE; padding-top: 2%;">
             <div class="row">
-                <div class="col-sm-6 horario">
+                <div class="col-12 col-sm-6 horario">
                     <h2><n>Horario:</n></h2>
                     <p>Lunes: de 16 a 21h</p>
                     <p>Martes - Viernes: de 11 a 14h y de 16 a 21h</p>
                     <p>Sábado y domingo: de 11 a 21h</p>
                     <p>Consulta el sistema de reservas para comprobar disponibilidad y realizar una reserva para visitarnos</p>
-                    <img class="redes" src="Home/redes.png"  alt="">
+                    <img class="redes" src="../Home/redes.png"  alt="" class="img-fluid" style="width: 60%;">
                 </div>
                 
-                <div class="col-sm-2" >
+                <div class="col-12 col-sm-2" >
                     <h2><n>Pawffé</n></h2>
                     <p>C/fffffffffffff</p>
                     <p>28000 Madrid</p>
                     <p>Tel: 000 00 00 00</p>
                     <p>Email: info@pawffe.es</p>
                 </div>
-                <div class="col-sm-4">
-                    <img src="Home/mapa_peque.PNG"  alt="">
+                <div class="col-12 col-sm-4">
+                    <img src="../Home/mapa_peque.PNG"  alt="">
                 </div>
             </div>
         </div>

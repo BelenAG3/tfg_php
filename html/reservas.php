@@ -175,9 +175,9 @@ include '../conexion.php';
                     <p><b>Al realizar tu reserva, solicitamos un depósito de 5,00€ por persona. Cuando finalices tu estancia, lo descontaremos del importa final del pago por tiempo de estancia.</b></p>
                     <p>Modificaciones y cancelaciones:</p>
                     <ul>
-                        <li><p>Aviso hasta las 21:00h del día anterior al de tu reserva: posibilidad de cambio de tu reserva a otra fecha o de devolución del importe de tu reserva.</p></li>
-                        <li><p>Aviso el mismo dia de tu reserva, hasta con una hora de antelación del comienzo de la misma: posibilidad de cambio de tu reserva a otra fecha.</p></li>
-                        <li><p>Desde una hora antes del comienzo de tu reserva, y en adelante, se pierde todo derecho a devolución o cambio de la misma.</p></li>  
+                        <p>Aviso hasta las 21:00h del día anterior al de tu reserva: posibilidad de cambio de tu reserva a otra fecha o de devolución del importe de tu reserva.</p>
+                        <p>Aviso el mismo dia de tu reserva, hasta con una hora de antelación del comienzo de la misma: posibilidad de cambio de tu reserva a otra fecha.</p>
+                        <p>Desde una hora antes del comienzo de tu reserva, y en adelante, se pierde todo derecho a devolución o cambio de la misma.</p>
                     </ul>
                 </div>  
             </div>
@@ -198,31 +198,31 @@ include '../conexion.php';
                 <div class="col-fluid">
                     <h2 style="color: #59C3CE;"><b>Queremos que surja el amor</b></h2>
                     <ul>
-                        <li><p><b>Interactúa con los gatetes y perretes, pero respeta su espacio y descanso.</b></p></li>
-                        <li><p><b>Mímalos y acarícialos, pero no los cojas en brazos, retengas o fuerces.</b></p></li>
-                        <li><p><b>Juega siempre con juguetes, nunca con las manos.</b></p></li>
-                        <li><p><b>Hazles fotos y llévate un recuerdo, pero sin flash.</b></p></li>
+                        <p><b>Interactúa con los gatetes y perretes, pero respeta su espacio y descanso.</b></p>
+                        <p><b>Mímalos y acarícialos, pero no los cojas en brazos, retengas o fuerces.</b></p>
+                        <p><b>Juega siempre con juguetes, nunca con las manos.</b></p>
+                        <p><b>Hazles fotos y llévate un recuerdo, pero sin flash.</b></p>
                     </ul>
                     <p>Siempre habrá varios trabajadores. Está ahí para comprobar que se cumplen las normas, pero también para ayudarte con la interacción con los gatos y perros, explicarte qué les gusta a cada uno, contarte sus historias y todo lo que puedas necesitar. Apóyate en esas personas siempre que lo necesites.</p>
                 </div>  
             </div>
         </div>
-
+        
         <div class= "container-fluid" style="text-align: center; margin-top: 2%; background-color: #59C3CE;">
             <div class="row">
                 <div class="col-fluid">
                     <h2><b>Como realizar tu reserva</b></h2>
                     <ul>
-                        <li><p>Seleccione el día en que quieres visitarnos</p></li>
-                        <li><p>Añade tu nombre y número de teléfono</p></li>
-                        <li><p>Indica cuántos adultos y peques queréis visitarnos</p></li>
-                        <li><p>Acepta las políticas de reserva</p></li>
-                        <li><p>Pulsa “Ver disponibilidad”</p></li>
-                        <li><p>Pulsa “Pagar y reservar” y accederás a la pasarela de pago del depósito</p></li>
-                        <li><p>Descarga la confirmación de tu reserva o hazle un pantallazo</p></li>
+                        <p>Seleccione el día en que quieres visitarnos</p>
+                        <p>Añade tu nombre y número de teléfono</p>
+                        <p>Indica cuántos adultos y peques queréis visitarnos</p>
+                        <p>Acepta las políticas de reserva</p>
+                        <p>Pulsa “Ver disponibilidad”</p>
+                        <p>Pulsa “Pagar y reservar” y accederás a la pasarela de pago del depósito</p>
+                        <p>Descarga la confirmación de tu reserva o hazle un pantallazo</p>
                     </ul>
                     <p style="color: white;">Cualquier duda o problema con el sistema de reservas, escríbenos a reservas@pawffe.es y explícanos qué te ocurre e intentaremos ayudare.</p>
-                    <a href="reservar.php"><img style="width: 30%;" src="../adopcion/reserva_boton.png"></a>
+                    <a href="reservar.php"><img style="width: 10%;" src="../adopcion/reserva_boton.png"></a>
                 </div>  
             </div>
         </div>

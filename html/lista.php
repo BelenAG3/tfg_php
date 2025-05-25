@@ -48,8 +48,13 @@
                     <!--<link rel="stylesheet" type="text/css" href="css/estilos.css">-->
                     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+                    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+                
+                    <style>
+                        img {
+                            width: 100%;
+                        }
+                    </style>
                 </head>
                 <body>
                     <div>						
@@ -106,56 +111,43 @@
                                 </div>
                             </nav>
                         </div>
-                       <div class="container-fluid">
+                        <div class="container-fluid">
                             <div class="row">
                                 <div class="col-fluid">
                                     <img class="f_home" src="../reserva/lista_reserva.PNG" alt="">
                                 </div>
                             </div>
-                        </div>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-fluid">
-                                    <img id="principio" src="../reserva/lista_reserva.PNG" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-fluid">
-                                    <img id="principio" src="../menu/lista_reserva.PNG" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                        <section class="container-md">
-                            <div class="row">
-                                <div class="col-md-3" style="color: #59C3CE;"><b>Nombre<br></b></div>
-                                <div class="col-md-3" style="color: #FFBD59;"><b>Fecha<br></b></div>
-                                <div class="col-md-1" style="color: #59C3CE;"><b>Nº adultos<br></b></div>
-                                <div class="col-md-1" style="color: #FFBD59;"><b>Nº ninos<br></b></div>
-                                <div class="col-md-2" style="color: #59C3CE;"><b>Telefono<br></b></div>
-                                <div class="col-md-1" style="color: #FFBD59;"><b>Nº reserva<br></b></div>
-                            </div>
-                        </section>
+                        </div><br>
+                        <div class="d-flex justify-content-center">
+                            <div style="width: 100%;">
+                                <section class="container-md" style="margin-left: 20px;">
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-md-3" style="color: #59C3CE; text-align: left;"><b>Nombre</b></div>
+                                        <div class="col-md-3" style="color: #FFBD59; text-align: left;"><b>Fecha</b></div>
+                                        <div class="col-md-1" style="color: #59C3CE; text-align: left;"><b>Nº adultos</b></div>
+                                        <div class="col-md-1" style="color: #FFBD59; text-align: left;"><b>Nº niños</b></div>
+                                        <div class="col-md-2" style="color: #59C3CE; text-align: left;"><b>Teléfono</b></div>
+                                        <div class="col-md-1" style="color: #FFBD59; text-align: left;"><b>Nº reserva</b></div>
+                                    </div>
+                                </section>
 
 <?php
 
-                                while($row = mysqli_fetch_assoc($result))
-                                {
-                                    echo"
-                                        <section class=\"container_md\">
-                                            <div class=\"row\">
-                                                <div class=\"col-md-3\">".htmlspecialchars($row['nombre'])."</div>
-                                                <div class=\"col-md-3\">".htmlspecialchars($row['fecha'])."</div>
-                                                <div class=\"col-md-1\">".htmlspecialchars($row['n_adultos'])."</div>
-                                                <div class=\"col-md-1\">".htmlspecialchars($row['n_ninos'])."</div>
-                                                <div class=\"col-md-2\">".htmlspecialchars($row['telefono'])."</div>
-                                                <div class=\"col-md-1\">".htmlspecialchars($row['id_reserva'])."</div>
-                                            </div>
-                                        </section>
-                                    ";
-                                }
+                                        while($row = mysqli_fetch_assoc($result))
+                                        {
+                                            echo "
+                                                <section class=\"container-md\" style=\"margin-left: 20px;\">
+                                                    <div class=\"row\" style=\"display: flex;\">
+                                                        <div class=\"col-md-3\" style=\"text-align: left;\">".htmlspecialchars($row['nombre'])."</div>
+                                                        <div class=\"col-md-3\" style=\"text-align: left;\">".htmlspecialchars($row['fecha'])."</div>
+                                                        <div class=\"col-md-1\" style=\"text-align: left;\">".htmlspecialchars($row['n_adultos'])."</div>
+                                                        <div class=\"col-md-1\" style=\"text-align: left;\">".htmlspecialchars($row['n_ninos'])."</div>
+                                                        <div class=\"col-md-2\" style=\"text-align: left;\">".htmlspecialchars($row['telefono'])."</div>
+                                                        <div class=\"col-md-1\" style=\"text-align: left;\">".htmlspecialchars($row['id_reserva'])."</div>
+                                                    </div>
+                                                </section>
+                                            ";
+                                        }
 ?>
                             <!--<input type="button" value="Página anterior" onClick="history.go(-1);">-->
                         <div>

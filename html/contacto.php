@@ -121,9 +121,6 @@ include '../conexion.php';
                         <li class="nav-item">
                             <a class="nav-link" href="reservas.php" style="color: #59C3CE;">Reserva</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../html/lista.php" style="color: #59C3CE;">Ver Reservas</a>
-                        </li>
                     </ul>
                 </div>
             </nav>
@@ -150,7 +147,7 @@ include '../conexion.php';
                     <p>28000 Madrid</p>
                     <p>Tel: 000 00 00 00</p>
                     <p>Email: info@pawffe.es</p>
-                    <img class="redes" src="../Home/redes.png"  alt="">
+                    <img class="redes" src="../Home/redes.png"  alt="" class="img-fluid" style="width: 60%;">
                 </div>
                 
                 <div class="col-sm-5">

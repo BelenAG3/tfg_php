@@ -189,26 +189,27 @@ include '../conexion.php';
                 </div>
             </div>
         </div>
+        <br></br>
 
-        <div class="container-sm" style="background-color: #59C3CE; padding-top: 2%;">
+        <div class="container-fluid" style="background-color: #59C3CE; padding-top: 2%;">
             <div class="row">
-                <div class="col-sm-6 horario">
+                <div class="col-12 col-sm-6 horario">
                     <h2><n>Horario:</n></h2>
                     <p>Lunes: de 16 a 21h</p>
                     <p>Martes - Viernes: de 11 a 14h y de 16 a 21h</p>
                     <p>Sábado y domingo: de 11 a 21h</p>
                     <p>Consulta el sistema de reservas para comprobar disponibilidad y realizar una reserva para visitarnos</p>
-                    <img class="redes" src="../Home/redes.png"  alt="">
+                    <img class="redes" src="../Home/redes.png"  alt="" class="img-fluid" style="width: 60%;">
                 </div>
                 
-                <div class="col-sm-2" >
+                <div class="col-12 col-sm-2" >
                     <h2><n>Pawffé</n></h2>
                     <p>C/fffffffffffff</p>
                     <p>28000 Madrid</p>
                     <p>Tel: 000 00 00 00</p>
                     <p>Email: info@pawffe.es</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-12 col-sm-4">
                     <img src="../Home/mapa_peque.PNG"  alt="">
                 </div>
             </div>

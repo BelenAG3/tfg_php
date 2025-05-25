@@ -124,8 +124,7 @@ include '../conexion.php';
                 </div>
             </nav>
         </div>
-
-
+        <br></br>
         <div class= "container-fluid">
             <div class="row">
                 <div class="col-fluid">
@@ -140,23 +139,29 @@ include '../conexion.php';
             <div id="proyector" class="carousel slide" data-bs-ride="carousel" data-interval="30000">
 
                 <!-- The slideshow/carousel  -->
-                <div class="carousel-inner">
+                <div class="carousel-inner text-center">
+                    <!-- Primer slide -->
                     <div class="carousel-item active">
-                        <img style="width: 20%; height: 20%;" src="../galeria/perro1.PNG" alt="" >
-                        <img style="width: 20%; height: 20%;" src="../galeria/perro2.PNG" alt="">
-                        <img style="width: 20%; height: 20%;" src="../galeria/perro3.PNG" alt="">
-                        <img style="width: 20%; height: 20%;"  src="../galeria/perro4.PNG" alt="">   
+                        <div class="d-flex justify-content-center gap-2 flex-wrap">
+                            <img style="width: 20%; height: 20%;" src="../galeria/perro1.PNG" alt="" >
+                            <img style="width: 20%; height: 20%;" src="../galeria/perro2.PNG" alt="">
+                            <img style="width: 20%; height: 20%;" src="../galeria/perro3.PNG" alt="">
+                            <img style="width: 20%; height: 20%;"  src="../galeria/perro4.PNG" alt="">  
+                        </div>
                     </div>
+
+                    <!-- Segundo slide -->
                     <div class="carousel-item">
-                        <img style="width: 20%; height: 20%;" src="../galeria/perro5.PNG" alt="" >
-                        <img style="width: 20%; height: 20%;" src="../galeria/perro6.PNG" alt="">
-                        <img style="width: 20%; height: 20%;" src="../galeria/perro2.PNG" alt="">
-                        <img style="width: 20%; height: 20%;"  src="../galeria/perro5.PNG" alt="">  
+                        <div class="d-flex justify-content-center gap-2 flex-wrap">
+                            <img style="width: 20%; height: 20%;" src="../galeria/perro5.PNG" alt="" >
+                            <img style="width: 20%; height: 20%;" src="../galeria/perro6.PNG" alt="">
+                            <img style="width: 20%; height: 20%;" src="../galeria/perro2.PNG" alt="">
+                            <img style="width: 20%; height: 20%;"  src="../galeria/perro5.PNG" alt="">  
+                        </div>
                     </div>
                 </div>
     
-                <!-- botones de control para desplazar siguiente/anterior-->
-
+                <!-- botones de control para desplazar siguiente/anterior -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#proyector" data-bs-slide="prev">
                     <span style="background-color: #59C3CE;" class="carousel-control-prev-icon"></span>
                 </button>
@@ -167,7 +172,7 @@ include '../conexion.php';
             </div>
     
         </div>
-
+        <br></br>
         <div class= "container-fluid">
             <div class="row">
                 <div class="col-fluid">
@@ -178,27 +183,34 @@ include '../conexion.php';
 
         <!-- Carousel -->
         <div class="container-fluid">
-
-            <div id="proyector2" class="carousel slide" data-bs-ride="carousel" data-interval="30000">
+            <div id="proyector2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="30000">
 
                 <!-- The slideshow/carousel  -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img style="width: 20%; height: 20%;" src="../galeria/gato1.PNG" alt="" >
-                        <img style="width: 20%; height: 20%;" src="../galeria/gato2.PNG" alt="">
-                        <img style="width: 20%; height: 20%;" src="../galeria/gato3.PNG" alt="">
-                        <img style="width: 20%; height: 20%;"  src="../galeria/gato4.PNG" alt="">   
-                    </div>
-                    <div class="carousel-item">
-                        <img style="width: 20%; height: 20%;" src="../galeria/gato3.PNG" alt="" >
-                        <img style="width: 20%; height: 20%;" src="../galeria/gato4.PNG" alt="">
-                        <img style="width: 20%; height: 20%;" src="../galeria/gato2.PNG" alt="">
-                        <img style="width: 20%; height: 20%;"  src="../galeria/gato1.PNG" alt="">  
-                    </div>
-                </div>
-    
-                <!-- botones de control para desplazar siguiente/anterior-->
+                <div class="carousel-inner text-center">
 
+                    <!-- Primer slide -->
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center gap-2 flex-wrap">
+                            <img style="width: 20%; height: auto;" src="../galeria/gato1.PNG" alt="">
+                            <img style="width: 20%; height: auto;" src="../galeria/gato2.PNG" alt="">
+                            <img style="width: 20%; height: auto;" src="../galeria/gato3.PNG" alt="">
+                            <img style="width: 20%; height: auto;" src="../galeria/gato4.PNG" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Segundo slide -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center gap-2 flex-wrap">
+                            <img style="width: 20%; height: auto;" src="../galeria/gato3.PNG" alt="">
+                            <img style="width: 20%; height: auto;" src="../galeria/gato4.PNG" alt="">
+                            <img style="width: 20%; height: auto;" src="../galeria/gato2.PNG" alt="">
+                            <img style="width: 20%; height: auto;" src="../galeria/gato1.PNG" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- botones de control para desplazar siguiente/anterior -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#proyector2" data-bs-slide="prev">
                     <span style="background-color: #59C3CE;" class="carousel-control-prev-icon"></span>
                 </button>
@@ -207,9 +219,9 @@ include '../conexion.php';
                 </button>
 
             </div>
-    
         </div>
 
+        <br></br>
         <div class= "container-fluid">
             <div class="row">
                 <div class="col-fluid">
@@ -224,23 +236,29 @@ include '../conexion.php';
             <div id="proyector3" class="carousel slide" data-bs-ride="carousel" data-interval="30000">
 
                 <!-- The slideshow/carousel  -->
-                <div class="carousel-inner">
+                <div class="carousel-inner text-center">
+                    <!-- Primer slide -->
                     <div class="carousel-item active">
-                        <img style="width: 20%; height: 20%;" src="../galeria/cafeteria1.PNG" alt="" >
-                        <img style="width: 20%; height: 20%;" src="../galeria/cafeteria2.PNG" alt="">
-                        <img style="width: 20%; height: 20%;" src="../galeria/cafeteria3.PNG" alt="">
-                        <img style="width: 20%; height: 20%;"  src="../galeria/cafeteria4.PNG" alt="">   
+                        <div class="d-flex justify-content-center gap-2 flex-wrap">
+                            <img style="width: 20%; height: 20%;" src="../galeria/cafeteria1.PNG" alt="" >
+                            <img style="width: 20%; height: 20%;" src="../galeria/cafeteria2.PNG" alt="">
+                            <img style="width: 20%; height: 20%;" src="../galeria/cafeteria3.PNG" alt="">
+                            <img style="width: 20%; height: 20%;"  src="../galeria/cafeteria4.PNG" alt=""> 
+                        </div>
                     </div>
+
+                    <!-- Segundo slide -->
                     <div class="carousel-item">
-                        <img style="width: 20%; height: 20%;" src="../galeria/cafeteria2.PNG" alt="" >
-                        <img style="width: 20%; height: 20%;" src="../galeria/cafeteria1.PNG" alt="">
-                        <img style="width: 20%; height: 20%;" src="../galeria/cafeteria4.PNG" alt="">
-                        <img style="width: 20%; height: 20%;"  src="../galeria/cafeteria3.PNG" alt="">  
+                        <div class="d-flex justify-content-center gap-2 flex-wrap">
+                            <img style="width: 20%; height: 20%;" src="../galeria/cafeteria2.PNG" alt="" >
+                            <img style="width: 20%; height: 20%;" src="../galeria/cafeteria1.PNG" alt="">
+                            <img style="width: 20%; height: 20%;" src="../galeria/cafeteria4.PNG" alt="">
+                            <img style="width: 20%; height: 20%;"  src="../galeria/cafeteria3.PNG" alt=""> 
+                        </div>
                     </div>
                 </div>
     
-                <!-- botones de control para desplazar siguiente/anterior-->
-
+                <!-- botones de control para desplazar siguiente/anterior -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#proyector3" data-bs-slide="prev">
                     <span style="background-color: #59C3CE;" class="carousel-control-prev-icon"></span>
                 </button>
@@ -249,28 +267,27 @@ include '../conexion.php';
                 </button>
 
             </div>
-    
         </div>
-
-        <div class="container-sm" style="background-color: #59C3CE; padding-top: 2%; margin-top: 2%;">
+        <br></br>
+        <div class="container-fluid" style="background-color: #59C3CE; padding-top: 2%;">
             <div class="row">
-                <div class="col-sm-6 horario">
+                <div class="col-12 col-sm-6 horario">
                     <h2><n>Horario:</n></h2>
                     <p>Lunes: de 16 a 21h</p>
                     <p>Martes - Viernes: de 11 a 14h y de 16 a 21h</p>
                     <p>Sábado y domingo: de 11 a 21h</p>
                     <p>Consulta el sistema de reservas para comprobar disponibilidad y realizar una reserva para visitarnos</p>
-                    <img class="redes" src="../Home/redes.png"  alt="">
+                    <img class="redes" src="../Home/redes.png"  alt="" class="img-fluid" style="width: 60%;">
                 </div>
                 
-                <div class="col-sm-2" >
+                <div class="col-12 col-sm-2" >
                     <h2><n>Pawffé</n></h2>
                     <p>C/fffffffffffff</p>
                     <p>28000 Madrid</p>
                     <p>Tel: 000 00 00 00</p>
                     <p>Email: info@pawffe.es</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-12 col-sm-4">
                     <img src="../Home/mapa_peque.PNG"  alt="">
                 </div>
             </div>

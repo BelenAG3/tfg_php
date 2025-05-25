@@ -171,11 +171,11 @@ include '../conexion.php';
                     </div>
                     <div class="col-sm-3">
                         <label><b>Adultos:</b></label><br>
-                        <input type="number" name="adulto" id="adulto" min="1" max="5" required><br><br>
+                        <input type="number" name="adulto" id="adulto" min="0" max="5" required><br><br>
                     </div>
                     <div class="col-sm-3">
                         <label><b>Niños:</b></label><br>
-                        <input type="number" name="kids" id="kids" min="1" max="2" required><br><br>
+                        <input type="number" name="kids" id="kids" min="0" max="2" required><br><br>
                     </div>
                     </div>
                 </div>
@@ -194,8 +194,8 @@ include '../conexion.php';
 
             <div class="container-sm">
                 <div class="row">
-                    <div class="col-sm-10">
-                        <INPUT TYPE="submit" NAME="accion" VALUE="Reservar" class="btn btn-primary" style="background-color: #FFBD59">
+                    <div class="col-sm-6">
+                        <INPUT TYPE="submit" NAME="accion" VALUE="Reervar" class="btn btn-primary" style="background-color: #FFBD59">
                     </div>
                     <!--<div class="col-sm-6">
                         <input type="checkbox" name="minusválido" value="">Para poder continuar debes aceptar los términos y condiciones. Puedes leer la política de devolución y cancelación completa en este ENLACE<br><br>
@@ -204,26 +204,27 @@ include '../conexion.php';
             </div>
 
         </form>
-        <br><br>
-        <div class="container-sm" style="background-color: #59C3CE; padding-top: 2%;">
+        <br></br>
+
+        <div class="container-fluid" style="background-color: #59C3CE; padding-top: 2%;">
             <div class="row">
-                <div class="col-sm-6 horario">
+                <div class="col-12 col-sm-6 horario">
                     <h2><n>Horario:</n></h2>
                     <p>Lunes: de 16 a 21h</p>
                     <p>Martes - Viernes: de 11 a 14h y de 16 a 21h</p>
                     <p>Sábado y domingo: de 11 a 21h</p>
                     <p>Consulta el sistema de reservas para comprobar disponibilidad y realizar una reserva para visitarnos</p>
-                    <img class="redes" src="../Home/redes.png"  alt="">
+                    <img class="redes" src="../Home/redes.png"  alt="" class="img-fluid" style="width: 60%;">
                 </div>
                 
-                <div class="col-sm-2" >
+                <div class="col-12 col-sm-2" >
                     <h2><n>Pawffé</n></h2>
                     <p>C/fffffffffffff</p>
                     <p>28000 Madrid</p>
                     <p>Tel: 000 00 00 00</p>
                     <p>Email: info@pawffe.es</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-12 col-sm-4">
                     <img src="../Home/mapa_peque.PNG"  alt="">
                 </div>
             </div>
