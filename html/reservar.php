@@ -195,7 +195,7 @@ include '../conexion.php';
             <div class="container-sm">
                 <div class="row">
                     <div class="col-sm-6">
-                        <INPUT TYPE="submit" NAME="accion" VALUE="Reervar" class="btn btn-primary" style="background-color: #FFBD59">
+                        <INPUT TYPE="submit" NAME="accion" VALUE="Reservar" class="btn btn-primary" style="background-color: #FFBD59">
                     </div>
                     <!--<div class="col-sm-6">
                         <input type="checkbox" name="minusválido" value="">Para poder continuar debes aceptar los términos y condiciones. Puedes leer la política de devolución y cancelación completa en este ENLACE<br><br>

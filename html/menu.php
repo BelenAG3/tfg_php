@@ -5,7 +5,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -274,7 +274,7 @@ include '../conexion.php';
             </div>
         </div>
         
-        <br></br>
+        
 
         <div class="container-fluid">
             <div class="row">
@@ -284,11 +284,10 @@ include '../conexion.php';
             </div>
         </div>
 
-        <div class= "container-fluid">
+        <div class= "container-fluid" style=" text-align: center;">
             <div class="row">
                 <div class="col-fluid">
-                    <h2 style="color: #FFBD59;"><b>Zumos naturales</b></h2>
-                    
+                            <h2 style="color: #FFBD59; text-aling:center"><b>Zumos naturales</b></h2>
                     <div class="container-sm ">
                         <div class="row">
                             <div class="col-sm-6">
@@ -385,7 +384,7 @@ include '../conexion.php';
                 </div>  
             </div>
         </div>
-       <br></br>
+       
         <div class="container-fluid">
             <div class="row">
                 <div class="col-fluid">
@@ -523,7 +522,7 @@ include '../conexion.php';
                 </div>
             </div>
         </div>
-        <br></br>
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-fluid">
@@ -642,10 +641,10 @@ include '../conexion.php';
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                         <p>COOKIE DE CHOCOLATE</p>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-2">
                         <p>1,75</p>
                     </div>
                 </div>
@@ -659,9 +658,9 @@ include '../conexion.php';
                     </div>
                 </div>
             </div>
-        <br></br>
-
-        <div class="container-fluid" style="background-color: #59C3CE; padding-top: 2%;">
+    
+      
+            <div class="container-fluid" style="background-color: #59C3CE; padding-top: 2%;">
             <div class="row">
                 <div class="col-12 col-sm-6 horario">
                     <h2><n>Horario:</n></h2>

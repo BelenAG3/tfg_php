@@ -62,7 +62,7 @@
 
                             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                                 <!-- Se crea el boton para el colapso -->
-                                <a class="navbar-brand" href="../0_index.php" style="color: #59C3CE;">Inicio</a>
+                                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                                     Menú
                                 </button>
