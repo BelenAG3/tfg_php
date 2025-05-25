@@ -1,11 +1,25 @@
 <?php
 include '../conexion.php';
+
+
+/*$queryTR = " SELECT a.Nombre as 'nombre', a.Apellido as 'apellido', a.Telefono as 'telefono', 
+							a.Fecha as 'fecha', a.N_adultos as 'adultos', a.N_ninos as 'niños', 
+							a.ID_reserva as 'id_reserva'
+						from reserva a 
+						order by a.nombre";
+	
+		if ($result = mysqli_query($con, $queryTR)) 
+		{
+			$total = mysqli_num_rows($result);
+			$row = mysqli_fetch_assoc($result);
+		}*/
+
 ?>
 <!doctype html>
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -78,7 +92,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -120,6 +134,9 @@ include '../conexion.php';
                         <li class="nav-item">
                             <a class="nav-link" href="reservas.php" style="color: #59C3CE;">Reserva</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lista.php" style="color: #59C3CE;">Ver reservas</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -131,95 +148,63 @@ include '../conexion.php';
                     <img class="f_home" src="../reserva/banner_reserva1.PNG" alt="">
                 </div>
             </div>
-        </div>
-
-        <div class="container-sm">
-            <div class="row">
-                <div class="col-sm-6">
-                    <p><b>Nombre</b></p>
-                </div>
-                <div class="col-sm-6">
-                    <p><b>Apellido</b></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-sm">
-            <div class="row">
-                <div class="col-sm-6">
-                    <input type="text" name="name" value="" required><br><br>
-                </div>
-                <div class="col-sm-6">
-                    <input type="text" name="surname" value="" required><br><br>
+        </div><br>
+        <form  class="col-sm-12" id="form_grabar" enctype="multipart/form-data" method="post" action="grabar.php">
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label><b>Nombre:</b></label><br>
+                        <input type="text" name="name" id="name" value="" required><br><br>
+                    </div>
+                    <div class="col-sm-6">
+                        <label><b>Télefono:</b></label><br>
+                        <input type="tel" name="phone" id="phone" value="" required><br><br>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container-sm">
-            <div class="row">
-                <div class="col-sm-6">
-                    <p><b>Fecha de reserva</b></p>
-                </div>
-                <div class="col-sm-6">
-                    <p><b>Télefono</b></p>
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label><b>Fecha de reserva:</b></label><br>
+                        <input type="date" name="rechaReserv" id="rechaReserv" required><br><br>
+                    </div>
+                    <div class="col-sm-3">
+                        <label><b>Adultos:</b></label><br>
+                        <input type="number" name="adulto" id="adulto" min="1" max="5" required><br><br>
+                    </div>
+                    <div class="col-sm-3">
+                        <label><b>Niños:</b></label><br>
+                        <input type="number" name="kids" id="kids" min="1" max="2" required><br><br>
+                    </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container-sm">
-            <div class="row">
-                <div class="col-sm-6">
-                    <input type="date" name="rechaReserv"><br><br>
-                </div>
-                <div class="col-sm-6">
-                    <input type="text" name="phone" value="" required><br><br>
+            <div class="container-sm">
+                <p><b>Comentario</b></p>
+                        <p style="background-color: #EFEFEF;">Reserva para Pawffé para una estancia estimada de 1 hora de duración. En caso de demorarte en tu llegada, es posible que no puedas disfrutar el tiempo completo, por lo que rogamos puntualidad. Te recordamos que el precio de la experiencia por persona es de: 30min 5,00€ / 1h 8,00€, que se ajusta al tiempo de tu estancia el día que nos visites. De ese importe, descontaremos el depósito que realizas al realizar la presente resera.
+                            Para cancelar o modificar la reserva llamar a nuestro número de teléfono en horario de atención al público o escribir a reservas@pawffe.es.
+                            Política cancelación: para modificar fecha siempre antes de la hora de reserva. Para devolución de importe antes de las 21:00 horas del día anterior de la fecha  reserva.
+                            </p>
+            </div>
+            <div class="container-sm">
+                <input type="checkbox" name="minusválido" id="minusválido" value="" required>Para poder continuar debes aceptar los términos y condiciones. Puedes leer la política de devolución y cancelación completa en este ENLACE<br><br>
+            </div>
+
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-sm-10">
+                        <INPUT TYPE="submit" NAME="accion" VALUE="Reservar" class="btn btn-primary" style="background-color: #FFBD59">
+                    </div>
+                    <!--<div class="col-sm-6">
+                        <input type="checkbox" name="minusválido" value="">Para poder continuar debes aceptar los términos y condiciones. Puedes leer la política de devolución y cancelación completa en este ENLACE<br><br>
+                    </div>-->
                 </div>
             </div>
-        </div>
-        
-        <div class="container-sm">
-            <div class="row">
-                <div class="col-sm-3">
-                    <p><b>Adultos</b></p>
-                </div>
-                <div class="col-sm-3">
-                    <p><b>Niños</b></p>
-                </div>
-                <div class="col-sm-6">
-                    <p><b>Télefono</b></p>
-                </div>
-            </div>
-        </div>
 
-        <div class="container-sm">
-            <div class="row">
-                <div class="col-sm-3">
-                    <input type="text" name="adulto" value="" required><br><br>
-                </div>
-                <div class="col-sm-3">
-                    <input type="text" name="kids" value="" required><br><br>
-                </div>
-                <div class="col-sm-6">
-                    <p><b>Comentario</b></p>
-                    <p style="background-color: #EFEFEF;">Reserva para Pawffé para una estancia estimada de 1 hora de duración. En caso de demorarte en tu llegada, es posible que no puedas disfrutar el tiempo completo, por lo que rogamos puntualidad. Te recordamos que el precio de la experiencia por persona es de: 30min 5,00€ / 1h 8,00€, que se ajusta al tiempo de tu estancia el día que nos visites. De ese importe, descontaremos el depósito que realizas al realizar la presente resera.
-                        Para cancelar o modificar la reserva llamar a nuestro número de teléfono en horario de atención al público o escribir a reservas@pawffe.es.
-                        Política cancelación: para modificar fecha siempre antes de la hora de reserva. Para devolución de importe antes de las 21:00 horas del día anterior de la fecha  reserva.
-                        </p>
-                </div>
-            </div>
-        </div>
-        <div class="container-sm">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img style="width: 40%; margin-left: 10%;" src="../adopcion/reserva_boton.png">
-                </div>
-                <div class="col-sm-6">
-                    <input type="checkbox" name="minusválido" value="">Para poder continuar debes aceptar los términos y condiciones. Puedes leer la política de devolución y cancelación completa en este ENLACE<br><br>
-                </div>
-            </div>
-        </div>
-
-
+        </form>
+        <br><br>
         <div class="container-sm" style="background-color: #59C3CE; padding-top: 2%;">
             <div class="row">
                 <div class="col-sm-6 horario">

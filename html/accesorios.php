@@ -5,7 +5,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -78,7 +78,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -120,6 +120,9 @@ include '../conexion.php';
                         <li class="nav-item">
                             <a class="nav-link" href="reservas.php" style="color: #59C3CE;">Reserva</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/lista.php" style="color: #59C3CE;">Ver Reservas</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -144,13 +147,13 @@ include '../conexion.php';
         <div class="container-sm ">
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="../productos/cama_p.png" alt="">
+                    <img src="../productos/cama_p1.png" alt="">
                 </div>
                 <div class="col-sm-4">
                     <img src="../productos/cama_p.png" alt="">
                 </div>
                 <div class="col-sm-4">
-                    <img src="../productos/cama_p.png" alt="">
+                    <img src="../productos/cama_p3.png" alt="">
                 </div>
             </div>
         </div>
@@ -161,10 +164,10 @@ include '../conexion.php';
                     <p><b>Leeby Cuna Súper Suave con Cojín Desenfundable</b></p>
                 </div>
                 <div class="col-sm-4">
-                    <p><b>Leeby Cuna Súper Suave con Cojín Desenfundable</b></p>
+                    <p><b>Leeby Iglú Desenfundable de Borreguito Blanco</b></p>
                 </div>
                 <div class="col-sm-4">
-                    <p><b>Leeby Cuna Súper Suave con Cojín Desenfundable</b></p>
+                    <p><b>Catshion Patrol Rascador para gatos</b></p>
                 </div>
             </div>
         </div>
@@ -172,13 +175,13 @@ include '../conexion.php';
         <div class="container-sm " style="text-align: center;">
             <div class="row">
                 <div class="col-sm-4">
-                    <p>12.99€</p>
+                    <p>14.99€</p>
                 </div>
                 <div class="col-sm-4">
-                    <p>12.99€</p>
+                    <p>19.99€</p>
                 </div>
                 <div class="col-sm-4">
-                    <p>12.99€</p>
+                    <p>15.29€</p>
                 </div>
             </div>
         </div>
@@ -188,27 +191,13 @@ include '../conexion.php';
         <div class="container-sm ">
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="../productos/cama_p.png" alt="">
+                    <img src="../productos/cama_p4.PNG" alt="">
                 </div>
                 <div class="col-sm-4">
-                    <img src="../productos/cama_p.png" alt="">
+                    <img src="../productos/cama_p5.PNG" alt="">
                 </div>
                 <div class="col-sm-4">
-                    <img src="../productos/cama_p.png" alt="">
-                </div>
-            </div>
-        </div>
-
-        <div class="container-sm " style="text-align: center;">
-            <div class="row">
-                <div class="col-sm-4">
-                    <p><b>Leeby Cuna Súper Suave con Cojín Desenfundable</b></p>
-                </div>
-                <div class="col-sm-4">
-                    <p><b>Leeby Cuna Súper Suave con Cojín Desenfundable</b></p>
-                </div>
-                <div class="col-sm-4">
-                    <p><b>Leeby Cuna Súper Suave con Cojín Desenfundable</b></p>
+                    <img src="../productos/cama_p6.PNG" alt="">
                 </div>
             </div>
         </div>
@@ -216,13 +205,27 @@ include '../conexion.php';
         <div class="container-sm " style="text-align: center;">
             <div class="row">
                 <div class="col-sm-4">
-                    <p>12.99€</p>
+                    <p><b>TK-Pet Iris Comedero con Soporte para perros</b></p>
                 </div>
                 <div class="col-sm-4">
-                    <p>12.99€</p>
+                    <p><b>Outech Oasis Tolva Bebedero Beige para mascotas</b></p>
                 </div>
                 <div class="col-sm-4">
-                    <p>12.99€</p>
+                    <p><b>X-TRM Cronos Flash Arnés Negro para perros</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-sm " style="text-align: center;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>21.24€</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>13.59€</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>17.99€</p>
                 </div>
             </div>
         </div>

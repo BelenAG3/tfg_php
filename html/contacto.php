@@ -6,7 +6,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -79,7 +79,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -120,6 +120,9 @@ include '../conexion.php';
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="reservas.php" style="color: #59C3CE;">Reserva</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/lista.php" style="color: #59C3CE;">Ver Reservas</a>
                         </li>
                     </ul>
                 </div>

@@ -5,7 +5,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -78,7 +78,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -144,10 +144,10 @@ include '../conexion.php';
         <div class="container-sm ">
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="../productos/juguete_p.png" alt="">
+                    <img src="../productos/juguete_p1.png" alt="">
                 </div>
                 <div class="col-sm-4">
-                    <img src="../productos/juguete_p.png" alt="">
+                    <img src="../productos/juguete_p2.png" alt="">
                 </div>
                 <div class="col-sm-4">
                     <img src="../productos/juguete_p.png" alt="">
@@ -158,10 +158,10 @@ include '../conexion.php';
         <div class="container-sm " style="text-align: center;">
             <div class="row">
                 <div class="col-sm-4">
-                    <p><b>Flamingo pelota saltarina azul de peluche</b></p>
+                    <p><b>Flamingo Winta Pelota de Tenis para gatos</b></p>
                 </div>
                 <div class="col-sm-4">
-                    <p><b>Flamingo pelota saltarina azul de peluche</b></p>
+                    <p><b>Kong Knots oso de peluche para perros</b></p>
                 </div>
                 <div class="col-sm-4">
                     <p><b>Flamingo pelota saltarina azul de peluche</b></p>
@@ -172,13 +172,13 @@ include '../conexion.php';
         <div class="container-sm " style="text-align: center;">
             <div class="row">
                 <div class="col-sm-4">
-                    <p>10.69€</p>
+                    <p>3.39€</p>
                 </div>
                 <div class="col-sm-4">
-                    <p>10.69€</p>
+                    <p>8.15€</p>
                 </div>
                 <div class="col-sm-4">
-                    <p>10.69€</p>
+                    <p>16.69€</p>
                 </div>
             </div>
         </div>
@@ -188,27 +188,13 @@ include '../conexion.php';
         <div class="container-sm ">
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="../productos/juguete_p.png" alt="">
+                    <img src="../productos/juguete_p4.png" alt="">
                 </div>
                 <div class="col-sm-4">
-                    <img src="../productos/juguete_p.png" alt="">
+                    <img src="../productos/juguete_p5.png" alt="">
                 </div>
                 <div class="col-sm-4">
-                    <img src="../productos/juguete_p.png" alt="">
-                </div>
-            </div>
-        </div>
-
-        <div class="container-sm " style="text-align: center;">
-            <div class="row">
-                <div class="col-sm-4">
-                    <p><b>Flamingo pelota saltarina azul de peluche</b></p>
-                </div>
-                <div class="col-sm-4">
-                    <p><b>Flamingo pelota saltarina azul de peluche</b></p>
-                </div>
-                <div class="col-sm-4">
-                    <p><b>Flamingo pelota saltarina azul de peluche</b></p>
+                    <img src="../productos/juguete_p6.png" alt="">
                 </div>
             </div>
         </div>
@@ -216,13 +202,27 @@ include '../conexion.php';
         <div class="container-sm " style="text-align: center;">
             <div class="row">
                 <div class="col-sm-4">
-                    <p>10.69€</p>
+                    <p><b>Kong Shakers Honkers Pato de peluche para perros</b></p>
                 </div>
                 <div class="col-sm-4">
-                    <p>10.69€</p>
+                    <p><b>Flamingo Ratón de Peluche a cuerda para gatos</b></p>
                 </div>
                 <div class="col-sm-4">
-                    <p>10.69€</p>
+                    <p><b>Kong Refillables Ardilla con Catnip de peluche para gatos</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-sm " style="text-align: center;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>10.15€</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>3.99€</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>5.99€</p>
                 </div>
             </div>
         </div>

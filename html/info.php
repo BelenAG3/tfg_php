@@ -5,7 +5,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -78,7 +78,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -110,11 +110,11 @@ include '../conexion.php';
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="menu.php" style="color: #59C3CE;">Menú</a></li>
                                 <li><a class="dropdown-item" href="comida.php" style="color: #59C3CE;">Comida</a></li>
-                                <li><a class="dropdown-item" href="accesorios.php" style="color: #59C3CE;">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="#" style="color: #59C3CE;">Accesorios</a></li>
                                 <li><a class="dropdown-item" href="juguetes.php" style="color: #59C3CE;">Juguetes</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item"> 
                             <a class="nav-link" href="contacto.php" style="color: #59C3CE;">Contacto</a>
                         </li>
                         <li class="nav-item">
@@ -167,7 +167,7 @@ include '../conexion.php';
                     <p>Sexo: Hembra</p>
                     <p>Edad: Cachorro / Nacimiento: 2024</p>
                     <p>Raza: Común europeo</p>
-                    <p>Caracter: Juguetona</p>
+                    <p>Carácter: Juguetona</p>
                     <p>Refugio: Asociación Alba</p>
                     <br>
                     <p><b>Su historia</b></p>

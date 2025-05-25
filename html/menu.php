@@ -5,7 +5,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -78,7 +78,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -188,13 +188,14 @@ include '../conexion.php';
                     </div>
                     <div class="col-sm-3">
                         <p>SOMBRA</p>
+                        <p>LATTE</p>
                     </div>
                     <div class="col-sm-2">
                         <p>€2,50</p>
+                        <p>€2,70</p>
                     </div>
                 </div>
             </div>
-    
             <div class="container-sm ">
                 <div class="row">
                     <div class="col-sm-4">
@@ -206,13 +207,14 @@ include '../conexion.php';
                     </div>
                     <div class="col-sm-3">
                         <p>ESPRESSO MACCHIATO</p>
+                        <p>FLAT WHITE</p>
                     </div>
                     <div class="col-sm-2">
                         <p>€2,20</p>
+                        <p>€3,00</p>
                     </div>
                 </div>
-            </div>
-    
+            </div> 
             <div class="container-sm ">
                 <div class="row">
                     <div class="col-sm-4">
@@ -224,13 +226,14 @@ include '../conexion.php';
                     </div>
                     <div class="col-sm-3">
                         <p>CAFÉ CON LECHE</p>
+                        <p>MANCHADO</p>
                     </div>
                     <div class="col-sm-2">
+                        <p>€2,70</p>
                         <p>€2,70</p>
                     </div>
                 </div>
             </div>
-    
             <div class="container-sm ">
                 <div class="row">
                     <div class="col-sm-4">
@@ -242,13 +245,14 @@ include '../conexion.php';
                     </div>
                     <div class="col-sm-3">
                         <p>CAPPUCCINO</p>
+                        <p>CAFÉ BOMBÓN</p>
                     </div>
                     <div class="col-sm-2">
                         <p>€2,70</p>
+                        <p>€3,00</p>
                     </div>
                 </div>
             </div>
-    
             <div class="container-sm ">
                 <div class="row">
                     <div class="col-sm-4">
@@ -260,67 +264,14 @@ include '../conexion.php';
                     </div>
                     <div class="col-sm-3">
                         <p>ICED LATTE</p>
+                        <p>EXTRA SHOT</p>
                     </div>
                     <div class="col-sm-2">
                         <p>€2,70</p>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="container-sm ">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>LATTE</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p>€2,70</p>
-                    </div>
-                </div>
-            </div>   
-    
-            <div class="container-sm ">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>FLAT WHITE</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p>€3,00</p>
-                    </div>
-                </div>
-            </div>   
-            
-            <div class="container-sm ">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>MANCHADO</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p>€2,70</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="container-sm ">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>CAFÉ BOMBÓN</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p>€3,00</p>
-                    </div>
-                </div>
-            </div> 
-    
-            <div class="container-sm ">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>EXTRA SHOT</p>
-                    </div>
-                    <div class="col-sm-6">
                         <p>€0,50</p>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
         
         

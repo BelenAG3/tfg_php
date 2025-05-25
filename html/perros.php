@@ -5,7 +5,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -78,7 +78,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -137,41 +137,13 @@ include '../conexion.php';
         <div class= "container-sm" style="padding-top: 2%;">
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="info.html"><img src="../perros/perro1.png"></a>
+                    <a href="info_perro.php"><img src="../perros/perro1.png"></a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="info.html"><img src="../perros/perro2.png"></a>
+                    <a href="info_xaden.php"><img src="../perros/perro2.png"></a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="info.html"><img src="../perros/perro3.png"></a>
-                </div>
-            </div>
-        </div>
-
-        <div class= "container-sm" style="padding-top: 2%;">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h2 style="text-align: center;"><b>Beto</b></h2>
-                </div>
-                <div class="col-sm-4">
-                    <h2 style="text-align: center;"><b>Xaden</b></h2>
-                </div>
-                <div class="col-sm-4">
-                    <h2 style="text-align: center;"><b>Klaus</b></h2>
-                </div>
-            </div>
-        </div>
-
-        <div class= "container-sm" style="padding-top: 2%;">
-            <div class="row">
-                <div class="col-sm-4">
-                    <a href="info.html"><img src="../perros/perro1.png"></a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="info.html"><img src="../perros/perro2.png"></a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="info.html"><img src="../perros/perro3.png"></a>
+                    <a href="info_klaus.php"><img src="../perros/perro3.png"></a>
                 </div>
             </div>
         </div>
@@ -186,6 +158,34 @@ include '../conexion.php';
                 </div>
                 <div class="col-sm-4">
                     <h2 style="text-align: center;"><b>Klaus</b></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class= "container-sm" style="padding-top: 2%;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="info_kira.php"><img src="../perros/perro4.png"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="info_archie.php"><img src="../perros/archie.png"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="info_rupia.php"><img src="../perros/rupia.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class= "container-sm" style="padding-top: 2%;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2 style="text-align: center;"><b>Kira</b></h2>
+                </div>
+                <div class="col-sm-4">
+                    <h2 style="text-align: center;"><b>Archie</b></h2>
+                </div>
+                <div class="col-sm-4">
+                    <h2 style="text-align: center;"><b>Rupia</b></h2>
                 </div>
             </div>
         </div>

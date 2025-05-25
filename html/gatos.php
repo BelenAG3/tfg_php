@@ -5,7 +5,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -78,7 +78,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -137,41 +137,13 @@ include '../conexion.php';
         <div class= "container-sm" style="padding-top: 2%;">
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="info.html"><img src="../gatos/gato1.png"></a>
+                    <a href="info.php"><img src="../gatos/gato1.png"></a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="info.html"><img src="../gatos/gato2.png"></a>
+                    <a href="fred_info.php"><img src="../gatos/gato2.png"></a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="info.html"><img src="../gatos/gato3.png"></a>
-                </div>
-            </div>
-        </div>
-
-        <div class= "container-sm" style="padding-top: 2%;">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h2 style="text-align: center;"><b>Mimi</b></h2>
-                </div>
-                <div class="col-sm-4">
-                    <h2 style="text-align: center;"><b>Fred</b></h2>
-                </div>
-                <div class="col-sm-4">
-                    <h2 style="text-align: center;"><b>Vitolo</b></h2>
-                </div>
-            </div>
-        </div>
-
-        <div class= "container-sm" style="padding-top: 2%;">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="../gatos/gato1.png">
-                </div>
-                <div class="col-sm-4">
-                    <img src="../gatos/gato2.png">
-                </div>
-                <div class="col-sm-4">
-                    <img src="../gatos/gato3.png">
+                    <a href="vitolo_info.php"><img src="../gatos/gato3.png"></a>
                 </div>
             </div>
         </div>
@@ -186,6 +158,34 @@ include '../conexion.php';
                 </div>
                 <div class="col-sm-4">
                     <h2 style="text-align: center;"><b>Vitolo</b></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class= "container-sm" style="padding-top: 2%;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="azriel_info.php"><img src="../gatos/azriel.png"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="pitah_info.php"><img src="../gatos/pitah.png"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="pudding_info.php"><img src="../gatos/pudding.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class= "container-sm" style="padding-top: 2%;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2 style="text-align: center;"><b>Azriel</b></h2>
+                </div>
+                <div class="col-sm-4">
+                    <h2 style="text-align: center;"><b>Pitah</b></h2>
+                </div>
+                <div class="col-sm-4">
+                    <h2 style="text-align: center;"><b>Pudding</b></h2>
                 </div>
             </div>
         </div>

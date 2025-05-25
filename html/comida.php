@@ -5,7 +5,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -78,7 +78,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -109,16 +109,19 @@ include '../conexion.php';
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"  href="#" style="color: #59C3CE;">Servicios</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="menu.php" style="color: #59C3CE;">Menú</a></li>
-                                <li><a class="dropdown-item" href="#" style="color: #59C3CE;">Comida</a></li>
-                                <li><a class="dropdown-item" href="accesorios.php" style="color: #59C3CE;">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="comida.php" style="color: #59C3CE;">Comida</a></li>
+                                <li><a class="dropdown-item" href="#" style="color: #59C3CE;">Accesorios</a></li>
                                 <li><a class="dropdown-item" href="juguetes.php" style="color: #59C3CE;">Juguetes</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item"> 
                             <a class="nav-link" href="contacto.php" style="color: #59C3CE;">Contacto</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="reservas.php" style="color: #59C3CE;">Reserva</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/lista.php" style="color: #59C3CE;">Ver Reservas</a>
                         </li>
                     </ul>
                 </div>
@@ -147,24 +150,10 @@ include '../conexion.php';
                     <img src="../productos/comida_p.png" alt="">
                 </div>
                 <div class="col-sm-4">
-                    <img src="../productos/comida_p.png" alt="">
+                    <img src="../productos/comida_p2.png" alt="">
                 </div>
                 <div class="col-sm-4">
-                    <img src="../productos/comida_p.png" alt="">
-                </div>
-            </div>
-        </div>
-
-        <div class="container-sm " style="text-align: center;">
-            <div class="row">
-                <div class="col-sm-4">
-                    <p><b>Royal Canin Kitten sobre en salsa para gatos</b></p>
-                </div>
-                <div class="col-sm-4">
-                    <p><b>Royal Canin Kitten sobre en salsa para gatos</b></p>
-                </div>
-                <div class="col-sm-4">
-                    <p><b>Royal Canin Kitten sobre en salsa para gatos</b></p>
+                    <img src="../productos/comida_p3.png" alt="">
                 </div>
             </div>
         </div>
@@ -172,13 +161,27 @@ include '../conexion.php';
         <div class="container-sm " style="text-align: center;">
             <div class="row">
                 <div class="col-sm-4">
-                    <p>1.49€</p>
+                    <p><b>Royal Canin Kitten sobre en salsa para gatos</b></p>
                 </div>
+                <div class="col-sm-4">
+                    <p><b>Royal Canin Mini Puppy sobre en salsa</b></p>
+                </div>
+                <div class="col-sm-4">
+                    <p><b>Wellness Core Adult Sterilised Ocean Salmón pienso para gatos</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-sm " style="text-align: center;">
+            <div class="row">
                 <div class="col-sm-4">
                     <p>1.49€</p>
                 </div>
                 <div class="col-sm-4">
-                    <p>1.49€</p>
+                    <p>1.09€</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>19.29€</p>
                 </div>
             </div>
         </div>
@@ -188,27 +191,13 @@ include '../conexion.php';
         <div class="container-sm ">
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="../productos/comida_p.png" alt="">
+                    <img src="../productos/comida_p4.png" alt="">
                 </div>
                 <div class="col-sm-4">
-                    <img src="../productos/comida_p.png" alt="">
+                    <img src="../productos/comida_p5.png" alt="">
                 </div>
                 <div class="col-sm-4">
-                    <img src="../productos/comida_p.png" alt="">
-                </div>
-            </div>
-        </div>
-
-        <div class="container-sm " style="text-align: center;">
-            <div class="row">
-                <div class="col-sm-4">
-                    <p><b>Royal Canin Kitten sobre en salsa para gatos</b></p>
-                </div>
-                <div class="col-sm-4">
-                    <p><b>Royal Canin Kitten sobre en salsa para gatos</b></p>
-                </div>
-                <div class="col-sm-4">
-                    <p><b>Royal Canin Kitten sobre en salsa para gatos</b></p>
+                    <img src="../productos/comida_p6.png" alt="">
                 </div>
             </div>
         </div>
@@ -216,13 +205,27 @@ include '../conexion.php';
         <div class="container-sm " style="text-align: center;">
             <div class="row">
                 <div class="col-sm-4">
-                    <p>1.49€</p>
+                    <p><b>Advance Galletas Hipoalergénicas para perros</b></p>
                 </div>
                 <div class="col-sm-4">
-                    <p>1.49€</p>
+                    <p><b>Catisfactions Premios de Salmón para gatos</b></p>
                 </div>
                 <div class="col-sm-4">
-                    <p>1.49€</p>
+                    <p><b>Hills’s Prescription Diet Metabolic Pollo pienso para perros</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-sm " style="text-align: center;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>3.49€</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>2.19€</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>22.49€</p>
                 </div>
             </div>
         </div>

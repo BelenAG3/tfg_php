@@ -5,7 +5,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -78,7 +78,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -138,7 +138,7 @@ include '../conexion.php';
                 <div class="col-sm-6">
                     <h2><b>Bienvenido a nuestro sistema de reserva para Pawffé</b></h2>
                     <p>Antes de proceder a realizar tu reserva, te contamos información importante.</p>
-                    <a href="reservar.html"><img style="width: 50%;" src="../adopcion/reserva_boton.png"></a>
+                    <a href="reservar.php"><img style="width: 50%;" src="../adopcion/reserva_boton.png"></a>
                 </div>
                 <div class="col-sm-6">
                     <img style="width: 50%;" src="../reserva/foto_reserva.png">
@@ -222,7 +222,7 @@ include '../conexion.php';
                         <li><p>Descarga la confirmación de tu reserva o hazle un pantallazo</p></li>
                     </ul>
                     <p style="color: white;">Cualquier duda o problema con el sistema de reservas, escríbenos a reservas@pawffe.es y explícanos qué te ocurre e intentaremos ayudare.</p>
-                    <a href="reservar.html"><img style="width: 30%;" src="../adopcion/reserva_boton.png"></a>
+                    <a href="reservar.php"><img style="width: 30%;" src="../adopcion/reserva_boton.png"></a>
                 </div>  
             </div>
         </div>

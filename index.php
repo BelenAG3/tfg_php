@@ -5,7 +5,7 @@ include 'conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -119,6 +119,9 @@ include 'conexion.php';
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="html/reservas.php" style="color: #59C3CE;">Reserva</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/lista.php" style="color: #59C3CE;">Ver Reservas</a>
                         </li>
                     </ul>
                 </div>

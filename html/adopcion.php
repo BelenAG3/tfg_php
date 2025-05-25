@@ -5,7 +5,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -78,7 +78,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -120,11 +120,13 @@ include '../conexion.php';
                         <li class="nav-item">
                             <a class="nav-link" href="reservas.php" style="color: #59C3CE;">Reserva</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/lista.php" style="color: #59C3CE;">Ver Reservas</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
         </div>
-
 
         <div class= "container-fluid">
             <div class="row">
@@ -200,7 +202,7 @@ include '../conexion.php';
             <div class="row">
                 <div class="col-sm-4">
                     <p>Nuestro proyecto se basa en la interacción, en que pases con ellos el tiempo necesario para conocer a cada gato o perro en todas sus facetas: juguetón, cariñoso, prudente, cansado... y puedas estar seguro de que ese perro o gato, es tu perro o gato.</p>
-                    <a href="reservar.html"><img style="width: 60%; margin-left: 5%;" src="../adopcion/reserva_boton.png"></a>
+                    <a href="reservar.php"><img style="width: 60%; margin-left: 5%;" src="../adopcion/reserva_boton.png"></a>
                 </div>
                 <div class="col-sm-4">
                     <p>Cada familia, cada hogar, cada ritmo de vida, es distinto, al igual que cada gato o perro lo es también. Es por ello que <b>lo mejor para acertar, es preguntar.</b> Sabemos cómo es cada uno de nuestros gatos y perros, y estamos encantados de dedicarte el tiempo que se necesite para conocerte a ti también, y orientarte sobre qué gatos o perros  pueden encajar mejor contigo.</p>
@@ -243,7 +245,7 @@ include '../conexion.php';
         <div class= "container-fluid">
             <div class="row">
                 <div class="col-fluid">
-                   <a href="info_adop.html"> <img style="width: 30%; margin-left: 35%;" src="../adopcion/bonton_procesos.png"></a>
+                   <a href="info_adop.php"> <img style="width: 30%; margin-left: 35%;" src="../adopcion/bonton_procesos.png"></a>
                 </div>  
             </div>
         </div>

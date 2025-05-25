@@ -5,7 +5,7 @@ include '../conexion.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>bootstrap - introducción</title>
+        <title>Pawffé</title>
     
         <meta name="robots" content="noindex, nofollow">
         <meta name="title" content=" ">
@@ -78,7 +78,7 @@ include '../conexion.php';
 
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <!-- Se crea el boton para el colapso -->
-                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">inicio</a>
+                <a class="navbar-brand" href="../index.php" style="color: #59C3CE;">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuppa2">
                     Menú
                 </button>
@@ -143,7 +143,7 @@ include '../conexion.php';
                 <div class="col-sm-9">
                     <h2><b>Charlas informativas</b></h2>
                     <p>Asiste a los cursos básicos que impartimos en Pawffé. Estas charlas están divididas en 10 partes, y en ellas os informaremos y os ayudaremos en esta nueva etapa con una mascota, consiguiendo prevenir problemas de salud o de comportamiento.</p>
-                    <p style="color: #59C3CE;"><ins>Leer más</ins></p>
+                    <!--<p style="color: #59C3CE;"><ins>Leer más</ins></p>-->
                 </div>  
             </div>
         </div>
